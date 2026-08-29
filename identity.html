@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Kuzey Pasifik — Kurumsal Kimlik</title>
+<style>
+:root{
+  --bg:#f2f0ea;--paper:#f8f7f3;--ink:#111714;--muted:#66706b;
+  --line:#d5d2c8;--deep:#0d1b17;--green:#0ca47e
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none} img{display:block;max-width:100%}
+.wrap{width:min(1240px,92vw);margin:auto}
+header{position:fixed;z-index:20;left:0;right:0;top:0;background:rgba(242,240,234,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(17,23,20,.08)}
+.nav{height:84px;display:flex;align-items:center;justify-content:space-between}
+.logo img{width:190px}
+.nav-right{display:flex;align-items:center;gap:30px;font-size:12px;font-weight:700}
+.hero{padding:165px 0 70px}
+.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:30px;align-items:stretch}
+.hero-copy{background:var(--paper);padding:62px;border:1px solid var(--line);display:flex;flex-direction:column;justify-content:space-between;min-height:650px}
+.kicker{font-size:10px;letter-spacing:.18em;text-transform:uppercase;font-weight:800;color:#0f755f}
+h1,h2,h3{margin:0;letter-spacing:-.045em}
+h1{font-size:82px;line-height:.98;max-width:760px}
+.lead{font-size:19px;line-height:1.75;color:#56605b;max-width:720px}
+.hero-image{min-height:650px;border:1px solid var(--line);background:linear-gradient(0deg,rgba(7,18,15,.18),rgba(7,18,15,.03)),url('https://kuzeypasifik.com/images/header-background.jpg') center/cover}
+.hero-bottom{display:flex;gap:24px;flex-wrap:wrap;padding-top:28px;border-top:1px solid var(--line);font-size:12px;font-weight:800}
+.statement{padding:130px 0}
+.statement-grid{display:grid;grid-template-columns:260px 1fr;gap:90px}
+.statement h2{font-size:62px;line-height:1.03;max-width:880px}
+.statement p{font-size:19px;line-height:1.85;color:var(--muted);max-width:760px;margin-top:32px}
+.expertise{padding:110px 0;background:var(--deep);color:white}
+.expertise-head{display:grid;grid-template-columns:260px 1fr;gap:90px;margin-bottom:70px}
+.expertise-head h2{font-size:60px;line-height:1.03}
+.expertise-list{border-top:1px solid rgba(255,255,255,.18)}
+.expertise-row{display:grid;grid-template-columns:80px 1fr 1.15fr;gap:36px;padding:30px 0;border-bottom:1px solid rgba(255,255,255,.18)}
+.expertise-row small{color:#7db9a9;font-weight:800}
+.expertise-row h3{font-size:31px}
+.expertise-row p{margin:0;color:#bcc8c3;line-height:1.75}
+.approach{padding:130px 0}
+.approach-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:80px;align-items:center}
+.approach-image{min-height:520px;background:url('https://kuzeypasifik.com/images/project-8.jpg') center/cover;border:1px solid var(--line)}
+.approach-copy h2{font-size:58px;line-height:1.03}
+.approach-copy p{font-size:18px;line-height:1.85;color:var(--muted)}
+.approach-lines{margin-top:40px;border-top:1px solid var(--line)}
+.approach-line{display:grid;grid-template-columns:70px 1fr;padding:20px 0;border-bottom:1px solid var(--line)}
+.approach-line b{font-size:13px}.approach-line span{font-size:14px;color:var(--muted)}
+.manifesto{padding:120px 0;background:#dedfd9}
+.manifesto blockquote{font-size:50px;line-height:1.16;letter-spacing:-.04em;margin:0;max-width:1000px;font-weight:700}
+.manifesto small{display:block;margin-top:28px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#5c6661}
+.contact{padding:95px 0}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px}
+.contact h2{font-size:48px}
+.contact p{color:var(--muted);line-height:1.8}
+.contact-meta{display:grid;gap:8px;font-size:16px}
+.contact-meta strong{font-size:28px}
+footer{padding:26px 0;background:#09130f;color:#83908b;font-size:11px}
+.reveal{opacity:0;transform:translateY(18px);transition:.75s ease}
+.reveal.show{opacity:1;transform:none}
+@media(max-width:900px){
+  .hero-grid,.statement-grid,.expertise-head,.approach-grid,.contact-grid{grid-template-columns:1fr}
+  h1{font-size:56px}.statement h2,.expertise-head h2,.approach-copy h2{font-size:44px}
+  .hero-copy{min-height:auto;padding:38px}.hero-image{min-height:420px}
+  .expertise-row{grid-template-columns:50px 1fr}.expertise-row p{grid-column:2}
+}
+@media(max-width:600px){
+  .nav-right a:first-child{display:none}h1{font-size:46px}
+  .hero{padding-top:125px}.statement{padding:90px 0}
+  .manifesto blockquote{font-size:36px}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="#"><img src="https://kuzeypasifik.com/images/logop.png" alt="Kuzey Pasifik"></a>
+<div class="nav-right"><a href="#kimlik">Kuzey Pasifik</a><a href="#iletisim">İletişim</a></div>
+</div></header>
+
+<main>
+<section class="hero">
+<div class="wrap hero-grid">
+<div class="hero-copy reveal">
+<div>
+<div class="kicker">Elektronik Ticaret · Dijital Dönüşüm · Teknoloji</div>
+<h1>Dijital ticaretin iş tarafını da teknoloji tarafını da biliyoruz.</h1>
+<p class="lead">KUZEY PASİFİK; eTicaret, dijital dönüşüm ve teknoloji alanlarında analiz, planlama ve uygulama yapan danışmanlık şirketidir.</p>
+</div>
+<div class="hero-bottom"><span>Analiz</span><span>Strateji</span><span>Uygulama</span><span>Değerlendirme</span></div>
+</div>
+<div class="hero-image reveal"></div>
+</div>
+</section>
+
+<section class="statement" id="kimlik">
+<div class="wrap statement-grid reveal">
+<div class="kicker">Biz kimiz?</div>
+<div>
+<h2>İşletmenin dijital dünyadaki gerçek ihtiyacını tanımlar, doğru yapıyı kurarız.</h2>
+<p>Yeni bir şirketin eTicarete geçişinden, mevcut bir yapının geliştirilmesine; teknoloji altyapısından dijital operasyonlara kadar işin bütününe bakarız. Kuzey Pasifik'in yaklaşımı araç satmak değil, doğru problemi tanımlayıp doğru çözümü uygulamaktır.</p>
+</div>
+</div>
+</section>
+
+<section class="expertise">
+<div class="wrap">
+<div class="expertise-head reveal">
+<div class="kicker" style="color:#7db9a9">Uzmanlık Alanları</div>
+<h2>Az başlık. Net sorumluluk.</h2>
+</div>
+<div class="expertise-list">
+<div class="expertise-row reveal"><small>01</small><h3>eTicaret</h3><p>Pazar analizi, eTicarete geçiş, pazaryeri çalışmaları, SEO, dönüşüm optimizasyonu ve büyüme stratejileri.</p></div>
+<div class="expertise-row reveal"><small>02</small><h3>Dijital Dönüşüm</h3><p>İş süreçlerinin dijitalleştirilmesi, kurumsal web, CMS, CRM, eMuhasebe ve operasyonel sistemlerin birlikte ele alınması.</p></div>
+<div class="expertise-row reveal"><small>03</small><h3>Teknoloji & CTO</h3><p>Teknik altyapı kararları, IT danışmanlığı, teknoloji yol haritası ve ihtiyaç duyulan alanlarda CTO desteği.</p></div>
+<div class="expertise-row reveal"><small>04</small><h3>Dijital Kimlik</h3><p>Kurumsal dijital görünürlük, sosyal medya yönetimi ve markanın dijital temas noktalarının tutarlı hale getirilmesi.</p></div>
+</div>
+</div>
+</section>
+
+<section class="approach">
+<div class="wrap approach-grid">
+<div class="approach-image reveal"></div>
+<div class="approach-copy reveal">
+<div class="kicker">Çalışma Biçimi</div>
+<h2>Önce konumu anlarız. Sonra yönü belirleriz.</h2>
+<p>Her çalışmanın başlangıç noktası mevcut durumdur. Pazar ve işletme yapısı analiz edilir, geliştirme stratejisi oluşturulur, uygulama yapılır ve sonuçlar değerlendirilir.</p>
+<div class="approach-lines">
+<div class="approach-line"><b>01</b><span>Pazar ve mevcut durum analizi</span></div>
+<div class="approach-line"><b>02</b><span>Geliştirme stratejisinin tasarlanması</span></div>
+<div class="approach-line"><b>03</b><span>Uygulama ve sonuçların değerlendirilmesi</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="manifesto">
+<div class="wrap reveal">
+<blockquote>“Kuzey Pasifik'teki misyonumuz, ekibimizin şirket kurma ve büyütme konusundaki uzmanlığına güvenerek sizi bu zor anlardan geçirmektir.”</blockquote>
+<small>Alper Ersoy · Sanal Pazar Uzmanı · Kurucu</small>
+</div>
+</section>
+
+<section class="contact" id="iletisim">
+<div class="wrap contact-grid reveal">
+<div>
+<div class="kicker">İletişim</div>
+<h2>Doğrudan iletişim.</h2>
+<p>Kuzey Pasifik iletişimde form ve robot yazılımlar yerine doğrudan telefon kanalını tercih eder.</p>
+</div>
+<div class="contact-meta">
+<strong>0 542 553 39 30</strong>
+<span>bilgi@kuzeypasifik.com</span>
+<span>Barbaros Mah. Ihlamur Bulvarı<br>Ağaoğlu My NewWork No:3/15<br>Ataşehir / İstanbul</span>
+</div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 KUZEY PASİFİK Elektronik Ticaret Satış Pazarlama ve Danışmanlık Hizmetleri Limited Şirketi</div></footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
